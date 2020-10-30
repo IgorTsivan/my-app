@@ -19,7 +19,7 @@ export const Login: React.FC<Props> = (props: Props) => {
     event.preventDefault();
     const validMail: boolean = validateEmail(mail);
     if (!validMail) {
-      alert("Confirm valid Email");
+      alert("Confirm valid E-mail");
       return false;
     }
     if (pass.length < 1) {
